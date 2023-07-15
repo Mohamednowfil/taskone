@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+<body>
+
+<h1>01.Application Form</h1>
+<form>
+    <p>
+       <label for="Name">Name:</label>
+       <input type="text" name="customer name" id="Name" placeholder="Enter your name">
+    </p>
+    <p>
+       <label for="Email">Email:</label>
+       <input type="email" name="customer email" id="Email" placeholder="Enter your email">
+    </p>
+    <p>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+    </p>
+    <p>
+        <legend>CHOOSE YOUR SKILLS</legend>
+        <br>
+        <label for="html">HTML</label>
+        <input type="checkbox" name="skills" id="html">
+
+        <label for="css">CSS</label>
+        <input type="checkbox" name="skills" id="css">
+        <label for="js">JS</label>
+        <input type="checkbox" name="skills" id="js">
+        <label for="bootstrap">Bootstrap</label>
+        <input type="checkbox" name="skills" id="bootstrap">
+        <label for="react">React</label>
+        <input type="checkbox" name="skills" id="react">
+    </p>
+    <p>
+        <label for="job type">JOB TYPE</label>
+        <select name="your domain" id="job type">
+            <option value="front end">FRONT END DEVELOPER</option>
+            <option value="back end">BACK END DEVELOPER</option>
+            <option value="devops">DEVOPS</option>
+        </select>
+
+    </p>
+    <p>
+        <label for="brower">Choose your browser from the lis:</label>
+        <input type="text" name="fav browser" id="brower" list="content-list">
+        <datalist id="content-list">
+
+            <option value="chrome">CHROME</option>
+            <option value="firefox">FIREFOX</option>
+            <option value="bing">BING</option>
+            <option value="yahoo">YAHOO</option>
+
+        </datalist>
+        
+    </p>
+    <p>
+        <textarea name="about customer" id="about" cols="30" rows="3" placeholder="Give a brief summary about you"></textarea>
+    </p>
+    <button type="submit">submit</button>
+
+</form>
+<h1>02.Batch List</h1>
+<p>
+        <ul>
+              <li>SENCHOLA UNIVERSITY</li> <br>
+            <ol>
+                  <li>First Batch</li><br>
+                <ol type="A">
+                   <li>Ravi</li><br>
+                   <li>Manol</li><br>
+                   <li>Sandhiya</li><br>
+                </ol>
+                  <li>Second Batch</li><br>
+                <ol type="I">
+                    <li>Sundhar</li><br>
+                    <li>Saranya</li><br>
+                    <li>Nandhini</li><br>
+                
+                </ol>
+                    <li>Third Batch</li><br>  
+                 <ol type="i">
+                     <li>Monika</li><br>
+                     <li>Santhosh</li><br>
+                     <li>Kannan</li><br>
+                 </ol>   
+
+            </ol>
+
+        </ul>
+
+</p>
+<h1>03.Courses</h1>
+<table border="2">
+    <tr>
+        <th>S.NO1</th>
+        <th>S.NO2</th>
+        <th>S.NO3</th>
+        <th>S.NO4</th>
+    </tr>
+    <tr>
+        <td rowspan="2">REACT JS</td>
+        <td>HTML</td>
+        <td rowspan="2">REACT JS</td>
+        <td>CSS</td>
+        <tr>
+        <td>CSS</td>
+        <td>HTML</td>
+        </tr>
+        <tr>
+            <td colspan="2">JAVASCRIPT</td>
+            <td colspan="2">BOOTSTRAP</td>
+        </tr>
+
+    </tr>
+
+</table>
+
+</body>
+</html> 
